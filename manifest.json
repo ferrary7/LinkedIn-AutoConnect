@@ -1,0 +1,13 @@
+{
+	"manifest_version": 3,
+	"name": "LinkedIn AutoConnect",
+	"description": "Lazy people, now can auto-connect on LinkedIn",
+	"version": "0.0.1",
+	"action": {
+		"default_popup": "index.html"
+	},
+	"background": {
+		"service_worker": "background.js"
+	},
+	"permissions": ["declarativeContent", "activeTab", "scripting"]
+}

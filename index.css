@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  width: 250px;
+}
+
+#autoConnect {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: lavender;
+  border: 0.1px solid black;
+}
